@@ -4,12 +4,12 @@ RSpec.describe Stock do
   let(:stock) { Stock.new details }
   context "system price with no modifiers" do
     let(:details) do { 
-        id: 111010,
-        description: 'Coffee',
-        price: 1.25,
-        cost: 0.80,
-        price_type: 'system',
-        quantity_on_hand: 100000,
+        id: 111784,
+        description: 'Delivery',
+        price: nil,
+        cost: nil,
+        price_type: 'open',
+        quantity_on_hand: nil
       }
     end
     
