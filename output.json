@@ -1,0 +1,31 @@
+[
+  {
+    id: 111010,
+    description: 'Coffee',
+    price: 1.25,
+    cost: 0.80,
+    price_type: 'system',
+    quantity_on_hand: 100000,
+    modifiers: [
+      {
+        name: 'Small',
+        price: -0.25
+      },{
+        name: 'Medium',
+        price: 0.00
+      },{
+        name: 'Large',
+        price: 0.30
+      }
+    ]
+  },
+  {
+    id: 111784,
+    description: 'Delivery'
+    price: nil,
+    cost: nil,
+    price_type: 'open',
+    quantity_on_hand: nil,
+    modifiers: []
+  },
+]
