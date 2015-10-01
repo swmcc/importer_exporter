@@ -1,12 +1,6 @@
 require 'virtus'
 require 'models/modifier'
 
-class Currency < Virtus::Attribute
-  def coerce(value)
-    value
-  end
-end
-
 class Stock
   include Virtus.model
 
