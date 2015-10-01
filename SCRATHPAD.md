@@ -8,7 +8,7 @@ shows my workflow.
 ## THOUGHTS
 
 I'm pondering doing this using PORO or using Rails... The former is
-winning in my head a the minute.
+winning in my head at the minute.
 
 When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.

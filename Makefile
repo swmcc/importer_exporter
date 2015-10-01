@@ -1,0 +1,2 @@
+tests:
+	rspec --format doc
