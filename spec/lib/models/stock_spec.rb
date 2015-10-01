@@ -37,5 +37,9 @@ RSpec.describe Stock do
       expect(stock.quantity_on_hand).to eq details[:quantity_on_hand]
     end
 
+    it 'no modifiers listed' do
+      expect(stock.modifiers).to eq []
+    end
+
   end
 end

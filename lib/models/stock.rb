@@ -1,4 +1,5 @@
 require 'virtus'
+require 'models/modifier'
 
 class Currency < Virtus::Attribute
   def coerce(value)
@@ -15,5 +16,6 @@ class Stock
   attribute :cost, Currency 
   attribute :price_type, String
   attribute :quantity_on_hand, Integer
+  attribute :modifiers, Array[Modifier]
 end
 

@@ -14,3 +14,10 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### 3394b5f
+	
+	So I have decided to forget about rails. Not sure if this is a 
+	good thing yet or not. Using virtus as it makes sense and I have
+	some exposure to it.
+
+	Honestly not sure if this is the right thing to do or not....
