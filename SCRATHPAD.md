@@ -14,6 +14,14 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### 7ce3d8f
+
+        Added the integration test. Need to do three things now:
+
+          - Enable fast switching between formats (xml, yaml, json)
+          - Enable fast switching between models
+          - Refine the code a little
+
 ### ab9e306
 
 	Added the export. Seems to do what it says on the tin. Will
