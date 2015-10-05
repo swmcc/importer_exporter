@@ -14,6 +14,14 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### 28f48ca
+
+	Added two import test cases - am a bit happier now. Still think 
+	going down the spiking path too long has made me make bad design 
+	decisions.  However am willing to go on with this.
+
+	Next thing is to provide an Export function I suppose.
+
 ### 5f60a9e
 
         I SPIKED longer than I should have. However my TDD process was 
