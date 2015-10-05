@@ -14,6 +14,14 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### e30d9e3
+
+        I added two tests for the decorators. I will need to split out the
+        decorator classes probably to keep things consistent. Am starting to 
+        wonder about multiple stock items now. I have only been testing with
+        one item at a time. This was rather short sighted of me. I'll fill out
+        the details for the serializers now and then think about that. 
+
 ### ac5fbe0
 
         I think I am making the right choice in using representable, it

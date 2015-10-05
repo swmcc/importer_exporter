@@ -19,6 +19,9 @@ RSpec.describe 'Decorator tests' do
     it 'honours the object information' do
       expect(body['id']).to eq 111784 
       expect(body['description']).to eq 'Delivery'
+      expect(body['price']).to eq nil
+      expect(body['price_type']).to eq 'open'
+      expect(body['quantity_on_hand']).to eq nil
     end
 
     it 'returns [] for no modifiers' do
@@ -55,10 +58,21 @@ RSpec.describe 'Decorator tests' do
     it 'honours the object information' do
       expect(body['id']).to eq 111010 
       expect(body['description']).to eq 'Coffee'
+      expect(body['price']).to eq 1.25
+      expect(body['cost']).to eq 0.80
+      expect(body['price_type']).to eq 'system'
+      expect(body['quantity_on_hand']).to eq 100000
     end
 
     it 'returns 3 for the modifiers' do
-      expect(body['modifiers'].count).to eq 3
+      modifiers = body['modifiers']
+      expect(modifiers.count).to eq 3
+      expect(modifiers.first['name']).to eq 'Small'
+      expect(modifiers.first['price']).to eq -0.25 
+      expect(modifiers[1]['name']).to eq 'Medium' 
+      expect(modifiers[1]['price']).to eq 0.00 
+      expect(modifiers.last['name']).to eq 'Large'
+      expect(modifiers.last['price']).to eq 0.30 
     end
 
   end

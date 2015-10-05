@@ -12,6 +12,10 @@ class StockDecorator < Representable::Decorator
 
   property :id
   property :description
+  property :price
+  property :cost
+  property :price_type
+  property :quantity_on_hand
 
   collection :modifiers, extend: ModifierDecorator
 end
