@@ -1,5 +1,5 @@
 require 'representable/json'
-require 'decorator/modifier'
+require 'decorators/modifier'
 
 class StockDecorator < Representable::Decorator
   include Representable::JSON
