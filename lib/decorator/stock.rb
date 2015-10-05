@@ -1,6 +1,6 @@
 require 'representable/json'
 
-module StockRepresenter
+class StockDecorator < Representable::Decorator
   include Representable::JSON
 
   property :id

@@ -110,7 +110,7 @@ RSpec.describe Stock do
     end
 
     it 'outputs json' do
-      print stock.extend(StockRepresenter).to_json
+      print StockDecorator.new(stock).to_json
     end
 
   end
