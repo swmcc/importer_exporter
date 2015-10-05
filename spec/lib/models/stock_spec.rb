@@ -109,5 +109,9 @@ RSpec.describe Stock do
       expect(stock.modifiers[2].price).to eq 0.30
     end
 
+    it 'outputs json' do
+      print stock.extend(StockRepresenter).to_json
+    end
+
   end
 end

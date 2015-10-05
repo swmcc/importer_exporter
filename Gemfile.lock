@@ -12,6 +12,9 @@ GEM
     diff-lcs (1.2.5)
     equalizer (0.0.11)
     ice_nine (0.11.1)
+    multi_json (1.11.2)
+    representable (2.3.0)
+      uber (~> 0.0.7)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
       rspec-expectations (~> 3.3.0)
@@ -26,6 +29,7 @@ GEM
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
     thread_safe (0.3.5)
+    uber (0.0.15)
     virtus (1.0.5)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
@@ -36,6 +40,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  multi_json
+  representable
   rspec (~> 3.0)
   virtus
 
