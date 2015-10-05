@@ -14,6 +14,14 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### ac5fbe0
+
+        I think I am making the right choice in using representable, it
+        *seems* to do what I want.
+
+        I need to tie this back and add some tests now to prove it is
+        exactly what I want.
+
 ### STAGING NOTE
 
         I was hacking about there and was going to use active_model:

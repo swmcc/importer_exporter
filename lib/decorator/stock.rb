@@ -11,6 +11,7 @@ class StockDecorator < Representable::Decorator
   include Representable::JSON
 
   property :id
+  property :description
 
   collection :modifiers, extend: ModifierDecorator
 end

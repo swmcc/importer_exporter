@@ -108,10 +108,5 @@ RSpec.describe Stock do
       expect(stock.modifiers[2].name).to eq 'Large'
       expect(stock.modifiers[2].price).to eq 0.30
     end
-
-    it 'outputs json' do
-      print StockDecorator.new(stock).to_json
-    end
-
   end
 end
