@@ -14,6 +14,11 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### ab9e306
+
+	Added the export. Seems to do what it says on the tin. Will
+	now add an integration test. 
+
 ### 28f48ca
 
 	Added two import test cases - am a bit happier now. Still think 
