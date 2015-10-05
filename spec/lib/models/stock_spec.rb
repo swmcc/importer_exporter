@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 RSpec.describe Stock do
-  let(:stock) { Stock.new details }
   context "system price with no modifiers" do
+    let(:stock) { Stock.new details }
     let(:details) do { 
         id: 111784,
         description: 'Delivery',
@@ -44,6 +44,7 @@ RSpec.describe Stock do
   end
   
   context "system price with three modifiers" do
+    let(:stock) { Stock.new details }
     let(:details) do  {
         id: 111010,
         description: 'Coffee',
