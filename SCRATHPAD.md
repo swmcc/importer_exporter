@@ -14,6 +14,16 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### fd91f50
+
+        So adding multiple objects wasn't too hard. Just had to read the 
+        documentation. Added a rudementary test to prove that it works.
+        I am happy enough with the output now. All that is left to do is
+        ensure that the input is correct.
+
+	In order to do this I am going to SPIKE for a bit to get the feel 
+	for the csv.
+
 ### e30d9e3
 
         I added two tests for the decorators. I will need to split out the
