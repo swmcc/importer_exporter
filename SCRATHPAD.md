@@ -14,6 +14,20 @@ When spiking something I usually commit THEN rebase afterwards. As
 this is a take home test I am going to keep them in to show my workflow.
 They can be easily identified with SPIKING in the commit history. 
 
+### 5f60a9e
+
+        I SPIKED longer than I should have. However my TDD process was 
+        still active as I was parsing the input.csv file given. Still
+        not really proud of going down one path for so long. Think this
+        would be my first big commit without any tests to prove that the
+        solution works. Will fill out with proper specs now.
+
+        I've recently used smarter_csv for a project of mine. So decided
+        to bring it out for this. Activesupport is probably overkill
+        as I could filter the hash like I am for the delete method but
+        at the time I wasn't thinking about having to delete the modifier_x_x
+        elements.
+
 ### fd91f50
 
         So adding multiple objects wasn't too hard. Just had to read the 
