@@ -22,6 +22,28 @@ They can be easily identified with SPIKING in the commit history.
           - Enable fast switching between models
           - Refine the code a little
 
+        However I am going to leave it now. I think this gives a good 
+        enough representation of my workflow.
+
+        I think the solution can be (with some tweaking extended to include
+        several more formats. The same goes for switching betweeen models.
+
+        I did notice something that I am putting down to an assumption:
+
+        ```
+        2847232,Focaccia 56,$80.00,56,system,440
+        2847233,Rolls 57,$81.43,,system,0,Jelly,$.75,Peanut Butter,$1.12
+        ```
+        
+        I have read the README and I cannot see anything that says that
+        the cost of an item cannot be 0 (as it is in the last example).
+        To my eye it looks like the cost has gotten mixed up in the data
+        migration. However this is am assumption and you do not want to 
+        make assumptions with this type of information. In the real world
+        I would error out. I thought about adding a case for the description
+        ending in a digit and if the cost was 'nil'. However I think stating
+        it here is good enough.
+
 ### ab9e306
 
 	Added the export. Seems to do what it says on the tin. Will
