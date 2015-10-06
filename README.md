@@ -23,3 +23,31 @@ This should be coded as if it were being added to a large scale production
 system and should be representative of the type of work you would submit to such 
 a system and be proud of. Feel free to include a writeup with your submission 
 explaining the design, or outlining any assumptions you made while building it.
+
+## Developer Notes
+
+### Install
+
+```
+bundle
+```
+
+### Tests
+
+```
+make tests
+```
+
+### Usage
+
+#### Import
+
+```
+Import.process filename
+```
+
+#### Export
+
+```
+Export.process items
+```
